@@ -190,7 +190,7 @@ p {
 
 .carousel-item p {
     padding: 0 180px;
-} 
+}
 
 .icon {
     background-color: rgba(33, 181, 115, 0.4);
@@ -238,11 +238,11 @@ p {
         padding-left: 10px;
         padding-right: 0;
     }
-    
+
     .card-footer .col-5 {
         padding-left: 0;
         padding-right: 10px;
-    } 
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -269,7 +269,7 @@ p {
         -ms-border-radius: 3px;
         -o-border-radius: 3px;
     }
-    
+
     .banner img {
         margin-top: 20px;
     }
