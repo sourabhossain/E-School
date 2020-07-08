@@ -9,6 +9,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+section {
+    padding: 50px 0;
+}
+
 p {
     color: #6C6B6B;
 }
@@ -56,7 +60,6 @@ p {
 
 .banner-area {
     background-color: #F0FFF0;
-    padding: 50px 0;
 }
 
 .banner-area img {
@@ -85,4 +88,33 @@ p {
 
 .banner {
     padding: 0 40px;
+}
+
+/* anythings */
+
+.anythings {
+    background: #F8FFFB;
+    text-align: center;
+    padding: 50px 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.anythings:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.anythings img {
+    width: 80px;
+    height: 100px;
+    margin-bottom: 30px;
 }
