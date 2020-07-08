@@ -8,3 +8,65 @@ html,
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+p {
+    color: #6C6B6B;
+}
+
+/* Header */
+
+.header-area {
+    background-color: #F0FFF0;
+}
+
+.navbar-brand img {
+    width: 198.07px;
+    height: 59px;
+}
+
+.nav-link {
+    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+}
+
+.btn-success {
+    color: #ffffff !important;
+    background: #21B573;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding: 8px 25px !important;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.btn-success:hover {
+    background-color: #19b871d0;
+}
+
+/* banner */
+
+.banner-area {
+    background-color: #F0FFF0;
+    padding: 50px 0;
+}
+
+.learn {
+    color: #FD511A;
+}
+
+.banner-area span {
+    color: #21B573;
+}
+
+.banner {
+    padding: 0 40px;
+}
