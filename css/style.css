@@ -164,3 +164,16 @@ p {
 .card-footer p {
     line-height: 30px;
 }
+
+/* testimonial */
+
+.testimonial-area img {
+    width: 120px;
+    height: 120px;
+    margin-right: 30px;
+}
+
+.testimonial-area p {
+    margin-top: 20px;
+    color: #000000;
+}
