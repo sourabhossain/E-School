@@ -230,3 +230,23 @@ p {
     font-size: 18px;
     padding-right: 20px;
 }
+
+/* media */
+
+@media screen and (max-width: 992px) {
+    .card-footer .col-7 {
+        padding-left: 10px;
+        padding-right: 0;
+    }
+    
+    .card-footer .col-5 {
+        padding-left: 0;
+        padding-right: 10px;
+    } 
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+}
