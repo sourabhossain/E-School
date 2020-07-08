@@ -267,6 +267,14 @@ p {
         grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
         grid-gap: 1rem;
     }
+
+    .carousel-item p {
+        padding: 0px;
+    }
+
+    .card-body {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 576px) {
