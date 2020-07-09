@@ -184,7 +184,7 @@ p {
 .carousel-item img {
     width: 120px;
     height: 120px;
-    border: 4px solid gray;
+    border: 4px solid rgba(33, 181, 115, 0.8);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
