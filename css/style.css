@@ -181,6 +181,17 @@ p {
     line-height: 30px;
 }
 
+/* team */
+
+.our-team .anythings {
+    background: none;
+}
+
+.our-team img {
+    width: 200px;
+    height: 180px;
+}
+
 /* testimonial */
 
 .carousel-item img {
