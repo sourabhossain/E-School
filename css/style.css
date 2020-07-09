@@ -35,11 +35,25 @@ p {
 }
 
 .nav-link {
-    transition: all 0.5s ease-out;
-    -webkit-transition: all 0.5s ease-out;
-    -moz-transition: all 0.5s ease-out;
-    -ms-transition: all 0.5s ease-out;
-    -o-transition: all 0.5s ease-out;
+     transition: all 0.5s ease-out;
+     -webkit-transition: all 0.5s ease-out;
+     -moz-transition: all 0.5s ease-out;
+     -ms-transition: all 0.5s ease-out;
+     -o-transition: all 0.5s ease-out;
+     border-radius: 5px;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     -ms-border-radius: 5px;
+     -o-border-radius: 5px;
+     margin-right: 10px;
+     padding: 10px 20px;
+     font-size: 18px;
+}
+
+
+.nav-link:hover {
+    background-color: #21B573;
+    color: #ffffff !important;
 }
 
 .btn-success {
@@ -246,10 +260,6 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-    .nav-link {
-        width: 100px;
-    }
-
     .banner h1 {
         font-size: 36px;
     }
