@@ -35,11 +35,25 @@ p {
 }
 
 .nav-link {
-    transition: all 0.5s ease-out;
-    -webkit-transition: all 0.5s ease-out;
-    -moz-transition: all 0.5s ease-out;
-    -ms-transition: all 0.5s ease-out;
-    -o-transition: all 0.5s ease-out;
+     transition: all 0.5s ease-out;
+     -webkit-transition: all 0.5s ease-out;
+     -moz-transition: all 0.5s ease-out;
+     -ms-transition: all 0.5s ease-out;
+     -o-transition: all 0.5s ease-out;
+     border-radius: 5px;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     -ms-border-radius: 5px;
+     -o-border-radius: 5px;
+     margin-right: 10px;
+     padding: 10px 20px;
+     font-size: 18px;
+}
+
+
+.nav-link:hover {
+    background-color: #21B573;
+    color: #ffffff !important;
 }
 
 .btn-success {
@@ -56,10 +70,12 @@ p {
     -moz-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
+    font-weight: bold;
 }
 
 .btn-success:hover {
-    background-color: #19b871d0;
+    background-color: #ffffff;
+    color: #21B573 !important;
 }
 
 /* banner */
@@ -165,12 +181,31 @@ p {
     line-height: 30px;
 }
 
+.popular img {
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+/* team */
+
+.our-team .anythings {
+    background: none;
+}
+
+.our-team img {
+    width: 200px;
+    height: 180px;
+}
+
 /* testimonial */
 
 .carousel-item img {
     width: 120px;
     height: 120px;
-    border: 4px solid gray;
+    border: 4px solid rgba(33, 181, 115, 0.8);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -231,6 +266,39 @@ p {
     padding-right: 20px;
 }
 
+.social-icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.social-icons li a {
+    border: 1px solid #ffffff;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.social-icons li a:hover {
+    background-color: #ffffff;
+    color: #21B573;
+}
+
 /* media */
 
 @media screen and (max-width: 992px) {
@@ -246,10 +314,6 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-    .nav-link {
-        width: 100px;
-    }
-
     .banner h1 {
         font-size: 36px;
     }

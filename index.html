@@ -16,6 +16,7 @@
     <link rel="shortcut icon" href="images/ICON/icon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -35,7 +36,7 @@
 
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="#">Books<span class="sr-only">(current)</span></a>
                         </li>
 
@@ -52,7 +53,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link btn btn-success" href="#">Sign in</a>
+                            <a class="nav-link" href="#">Sign in</a>
                         </li>
                     </ul>
                 </div>
@@ -188,6 +189,120 @@
         </div>
     </section>
 
+    <section class="courses-area">
+        <div class="container">
+            <h2>Popular Courses</h2>
+        </div>
+    
+        <div class="container">
+            <div class="card-deck">
+                <div class="card popular">
+                    <img class="card-img-top" src="images/Photos/facebook-marketing.jpg" alt="facebook-marketing">
+    
+                    <div class="card-body">
+                        <h5 class="card-title">Facebook Marketing</h5>
+                        <p class="card-text">Designation</p>
+                        <a class="btn btn-success" href="#">Enroll Now</a>
+                    </div>
+    
+                    <div class="card-footer">
+                        <div class="row">
+                            <div class="col-7 d-flex">
+                                <img class="img-fluid" src="images/ICON/calendar.png" alt="calendar">
+                                <p>Start 20 April, 2021</p>
+                            </div>
+    
+                            <div class="col-5 d-flex justify-content-end">
+                                <img class="img-fluid" src="images/ICON/people.png" alt="people">
+                                <p>60 seats</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="card popular">
+                    <img class="card-img-top" src="images/Photos/frontend-devlopment.jpg" alt="frontend-Devlopment">
+    
+                    <div class="card-body">
+                        <h5 class="card-title">Frontend Devlopment</h5>
+                        <p class="card-text">Designation</p>
+                        <a class="btn btn-success" href="#">Enroll Now</a>
+                    </div>
+    
+                    <div class="card-footer">
+                        <div class="row">
+                            <div class="col-7 d-flex">
+                                <img class="img-fluid" src="images/ICON/calendar.png" alt="calendar">
+                                <p>Start 20 April, 2021</p>
+                            </div>
+    
+                            <div class="col-5 d-flex justify-content-end">
+                                <img class="img-fluid" src="images/ICON/people.png" alt="people">
+                                <p>60 seats</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="card popular">
+                    <img class="card-img-top" src="images/Photos/backend-development.png" alt="backend-development">
+    
+                    <div class="card-body">
+                        <h5 class="card-title">Backend Development</h5>
+                        <p class="card-text">Designation</p>
+                        <a class="btn btn-success" href="#">Enroll Now</a>
+                    </div>
+    
+                    <div class="card-footer">
+                        <div class="row">
+                            <div class="col-7 d-flex">
+                                <img class="img-fluid" src="images/ICON/calendar.png" alt="calendar">
+                                <p>Start 20 April, 2021</p>
+                            </div>
+    
+                            <div class="col-5 d-flex justify-content-end">
+                                <img class="img-fluid" src="images/ICON/people.png" alt="people">
+                                <p>60 seats</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="container">
+            <h2>Our Team</h2>
+        </div>
+
+        <div class="row d-flex justify-content-between our-team">
+            <div class="col-md-3 anythings">
+                <img class="img-fluid" src="images/Photos/team01.png" alt="team01">
+                <h4>Naimur Rahman</h4>
+                <p>Programmer</p>
+            </div>
+    
+            <div class="col-md-3 anythings">
+                <img class="img-fluid" src="images/Photos/team02.png" alt="team02">
+                <h4>Sourab Hossain</h4>
+                <p>Front-end Developer</p>
+            </div>
+    
+            <div class="col-md-3 anythings">
+                <img class="img-fluid" src="images/Photos/team03.png" alt="team03">
+                <h4>Nur Hasan</h4>
+                <p>Back-end Developer</p>
+            </div>
+    
+            <div class="col-md-3 anythings">
+                <img class="img-fluid" src="images/Photos/team04.png" alt="team04">
+                <h4>Jamal Uddin</h4>
+                <p>Web Developer</p>
+            </div>
+        </div>
+    </section>
+
     <section class="testimonial-area">
         <div class="container">
             <h2>Testimonials</h2>
@@ -261,7 +376,18 @@
         <div class="container footer">
             <div class="row">
                 <div class="col-md-5">
-                    <p>Millions of people of all ages and from around the world are improving their lives with us</p>
+                    <div class="col-12">
+                        <p>Millions of people of all ages and from around the world are improving their lives with us</p>
+                    </div>
+
+                    <div class="col-12">
+                        <ul class="social-icons">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="#"><i class="fab fa-youtube-square"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div class="col-md-7">
